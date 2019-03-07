@@ -1,8 +1,52 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1920px) {
     body {
-        background-color: red;
+        background-color: lightgreen;
     }
     #clothes {
-        right: 300px;
+        right: 400px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        background-color: lightblue;
+    }
+    #clothes {
+        right: -150px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+    #clothes {
+        right: -440px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        background-color: lightcoral;
+    }
+    #clothes {
+        right: -725px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightgray;
+    }
+    #clothes {
+        right: -950px;
+    }
+}
+@media only screen and (max-width: 240px) {
+    body {
+        background-color: lightcyan;
+    }
+    #clothes {
+        right: -1275px;
     }
 }
