@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+	<head>
+		<title>Milly Cohen</title>
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<link rel="stylesheet" href="stylesheets/home.css">
+		
+		<script src="scripts/dressup.js"></script>
+		
+	</head>
+	<body>
+		<div id="logo">
+			<a href="index.html"><img src="assets/images/logo.png" width="300" /></a>
+		</div>
+		<header>
+			<h1><a href="index.html">Milly Cohen Loves God</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="clients.html">Clients</a></li>
+				<li><a href="shop.html">Shop</a></li>
+			</ul>
+		</nav>
+		<section id="frog" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img src="assets/images/nakedfrog.png" width="650px"/>
+		</section>
+		
+		<section id="clothes">
+				<!-- CLOTHES LYING AROUND -->
+				<img src="assets/images/sock.png" width="100" id="sock1" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/leftsock.png')">
+				
+				<img src="assets/images/sock.png" width="100" id="sock2" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/rightsock.png')">
+				
+				<img src="assets/images/pants.png" width="100" id="pants" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/pantson.png')">
+				
+				<img src="assets/images/shirt.png" width="100" id="shirt" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/shirton.png')">
+				
+				<!-- extra socks layin around -->
+			</section>
+		
+		<footer>
+            Milly Cohen
+			<!-- add social media image map -->
+		</footer>
+	</body>
+</html>
