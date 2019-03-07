@@ -4,13 +4,14 @@ body {
 	grid-gap: -20%;
 	grid-template-columns: 30% 50% 20%;
 	grid-template-areas: 
-		"logo 	header ......."
+		"logo 	header header"
 		"logo 	frog ......."
 		"nav 	frog ......."
 		"....... frog ......."
 		"....... frog clothes"
 		"....... frog clothes"
-		"....... ....... footer";
+        "....... ....... ......."
+		"footer footer footer";
 }
 #logo {
 grid-area: logo

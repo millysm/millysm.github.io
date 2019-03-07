@@ -21,18 +21,31 @@ header {
 	width: 100%;
 	text-align: center;
 	
-	text-transform: lowercase;
+	text-transform: uppercase;
 	font-size: 2.5em;
 	color: #38699a;
 }
-header h1 {margin-left: -100px;}
+header h1 {
+    background-color: #d1cbef;
+    border-radius: 50px;
+    padding: 40px 400px 20px 400px;
+    
+    position: relative;
+    right: 400px;
+    bottom: -130px;
+    z-index: 1;
+    white-space: nowrap;
+}
 
 #logo {
-	padding-top: 10%;
-	padding-left: 10%;
+	margin-top: 20px;
+    margin-left: 100px;
+    z-index: 2;
 }
 #frog {
-	padding-left: 10%;
+	padding-left: 15%;
+    position: relative;
+    bottom: -200px;
 }
 
 h1 {
@@ -41,41 +54,70 @@ h1 {
 h1 a {text-decoration: none;}
 h1 a:visited {color: #38699a;}
 
+nav ul {
+    background-color: #d1cbef;
+    border-radius: 50px;
+    padding: 20px; 
+    
+    margin-left: 100px;
+}
 nav li {
 	display: inline-block;
-	margin: 0 10px 0 10px;
+	margin: auto 10px auto 10px;
 }
 nav li a {
 	text-decoration: none;
 	color: #38699a;
-	font-size: 2em;
+	font-size: 3em;
 }
 nav li a:hover {
 	color: #fff;
 }
 
+#clothes {
+    position: relative;
+    right: 800px;
+    bottom: 300px;
+    
+    padding-bottom: 100px;
+    height: 500px;
+}
+
 #sock1 {
 	position: absolute;
-	right: 900px;
-	bottom: -200px;
-	transform: rotate(-50deg);
+	right: 950px;
+	bottom: -400px;
+	transform: rotate(-30deg);
 }
 #sock2 {
 	position: absolute;
-	right: 100px;
-	bottom: -100px;
+	right: -100px;
+	bottom: 250px;
 }
 #shirt {
 	position: absolute;
-	right: 850px;
-	bottom: 100px;
+	right: 1200px;
+	bottom: -50px;
 	transform: rotate(10deg);
 }
 #pants {
 	position: absolute;
-	right: 100px;
-	bottom: 300px;
+	right: -300px;
+	bottom: -200px;
 	transform: rotate(-20deg); 
 }
 
-footer {background-color: pink;}
+footer {
+    color: #38699a;
+    background-color: #d1cbef;
+    border-radius: 50px;
+    padding: 20px;
+    
+    position: relative;
+    bottom: 0;
+    width: 90%;
+    height: 80px;
+    
+    z-index: -1;
+    margin: 0px 100px 200px 100px;
+}

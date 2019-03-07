@@ -1,0 +1,8 @@
+@media only screen and (max-width: 750px) {
+    body {
+        background-color: red;
+    }
+    #clothes {
+        right: 300px;
+    }
+}
