@@ -1,0 +1,61 @@
+.contact {
+	display: block;
+}
+.contact label {
+	color: #38699a;
+	display: inline-block;
+	width: 120px;
+	margin-right: 10px;
+	text-align: right;
+}
+#formtitle {
+	text-align: center;
+	color: #38699a;
+}
+
+fieldset {
+	border:none;
+	width: 90%;
+}
+
+form label {
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+form label, form input, form textarea {
+	margin-top: 10px;
+}
+
+#buttonalign {
+	margin-left: auto;
+	width: 200px;
+}
+button {
+	margin-top: 10px;
+	background-color: pink;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	font-size: 1em;
+	border-radius: 20px;
+}
+button:hover {background-color: magenta;}
+
+#plane {
+	width: 200px;
+	left: 850px;
+	top: 80px;
+	position: absolute;
+}
+
+#plane2 {
+	width: 300px;
+	left: 310px;
+	top: 300px;
+	transform: scaleX(-1);
+	position: absolute;
+	z-index: -1;
+}

@@ -1,0 +1,81 @@
+/*
+
+purple	: #a8aedf;
+blue	: #38699a;
+
+*/
+
+} 
+@font-face {
+	font-family: "TimesNewMilly-Regular";
+	src: url("../assets/fonts/TimesNewMilly-Regular.ttf");
+} 
+body {
+	font-family: "TimesNewMilly-Regular";
+	background-color: #a8aedf;
+	overflow: auto;
+	height: 500px;
+	overflow-x: hidden;
+}
+header {
+	width: 100%;
+	text-align: center;
+	
+	text-transform: lowercase;
+	font-size: 2.5em;
+	color: #38699a;
+}
+header h1 {margin-left: -100px;}
+
+#logo {
+	padding-top: 10%;
+	padding-left: 10%;
+}
+#frog {
+	padding-left: 10%;
+}
+
+h1 {
+	z-index: 2;
+}
+h1 a {text-decoration: none;}
+h1 a:visited {color: #38699a;}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+nav li a {
+	text-decoration: none;
+	color: #38699a;
+	font-size: 2em;
+}
+nav li a:hover {
+	color: #fff;
+}
+
+#sock1 {
+	position: absolute;
+	right: 900px;
+	bottom: -200px;
+	transform: rotate(-50deg);
+}
+#sock2 {
+	position: absolute;
+	right: 100px;
+	bottom: -100px;
+}
+#shirt {
+	position: absolute;
+	right: 850px;
+	bottom: 100px;
+	transform: rotate(10deg);
+}
+#pants {
+	position: absolute;
+	right: 100px;
+	bottom: 300px;
+	transform: rotate(-20deg); 
+}
+
+footer {background-color: pink;}
