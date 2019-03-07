@@ -21,7 +21,7 @@ function changeImage(ev, imageUrl) {
 	src.appendChild(img);
 	
 	img.style.position = "absolute"
-	img.style.bottom = "-338px"
+    img.style.right = "450px"
 	img.style.width = "650px"
 	
 	/* THIS ONLY WORKS IN FIREFOX */
