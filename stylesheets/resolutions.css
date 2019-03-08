@@ -10,7 +10,7 @@
         width: 90%;
     }
     h1 {
-        font-size: 3.5em;
+        font-size: -3.5em;
     }
     #logopic {
         width: 400px;
@@ -37,7 +37,7 @@
         right: 200px;
     }
     header h1 {
-        font-size: 2.5em;
+        font-size: -2.5em;
     }
 }
 
