@@ -10,10 +10,57 @@
 @media only screen and (max-width: 1440px) {
     body {
         background-color: lightblue;
+		grid-template-columns: 40% auto;
+		
     }
     #clothes {
-        right: -150px;
+		width: 80%;
+        right: -50px;
+		bottom: 1200px;
+		height: 300px;
     }
+	#sock1, #sock2 {
+		width: 100px;
+	}
+	#sock2 {
+		bottom: -400px;
+		right: 300px;
+	}
+	#shirt {
+		width: 100px;
+		bottom: -250px;
+	}
+	#pants {
+		width: 80px;
+		right: 200px;
+		bottom: -100px;
+	}
+	#logopic {
+		width: 50%;
+	}
+	header {
+		width: 70%;
+		bottom: -50px;
+		height: 60px;
+		padding: 8px 150px 8px 150px;
+		
+		right: 350px;
+		bottom: -80px;
+	}
+	
+	nav ul {
+		font-size: 1.8em;
+	}
+	#frog {
+		bottom: -50px;
+	}
+	#nakedfrog {
+		width: 60%;
+	}
+	
+	footer {
+		width: 80%;
+	}
 }
 
 @media only screen and (max-width: 1080px) {

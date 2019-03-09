@@ -1,39 +1,47 @@
 /*
 
-purple	: #a8aedf;
-blue	: #38699a;
+purple		: #a8aedf;
+blue		: #38699a;
+dark green	: #7ec769;
+light green	: #d4e6c1
+pink		: #fccec5;
 
 */
 
 } 
 @font-face {
-	font-family: "TimesNewMilly-Regular";
+	font-family: "Times New Milly";
 	src: url("../assets/fonts/TimesNewMilly-Regular.ttf");
 } 
 body {
-	font-family: "TimesNewMilly-Regular";
+	font-family: "Times New Milly";
 	background-color: #a8aedf;
 	overflow: auto;
 	height: 500px;
 	overflow-x: hidden;
 }
 header {
-	width: 100%;
-	text-align: center;
+	display: table;
 	
-	text-transform: uppercase;
-	font-size: 2.5em;
-	color: #38699a;
-}
-header h1 {
+	width: 100%;
     background-color: #d1cbef;
     border-radius: 50px;
-    padding: 40px 400px 20px 400px;
+    height: 100px;
+    padding: 20px 150px 20px 150px;
     
     position: relative;
     right: 400px;
-    bottom: -130px;
+    bottom: -170px;
     z-index: 1;
+}
+header h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	
+	text-transform: uppercase;
+	font-size: 4em;
+    color: #38699a;
     white-space: nowrap;
 }
 
@@ -51,6 +59,9 @@ header h1 {
     position: relative;
     bottom: -200px;
 }
+#nakedfrog {
+	width: 650px;
+}
 
 h1 {
 	z-index: 2;
@@ -63,19 +74,47 @@ nav ul {
     border-radius: 50px;
     padding: 20px; 
     
-    margin-left: 100px;
+    margin-left: 80px;
+	font-size: 3em;
 }
-nav li {
+
+nav li, nav .dropdown {
 	display: inline-block;
-	margin: auto 10px auto 10px;
+	margin: auto 5px auto 5px;
 }
 nav li a {
 	text-decoration: none;
 	color: #38699a;
-	font-size: 3em;
 }
 nav li a:hover {
 	color: #fff;
+}
+.dropitems {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: #d1cbef;
+	z-index: 1;
+	border-radius: 0 0 30px 30px;
+}
+.dropitems a {
+	text-decoration: none;
+	color: #38699a;
+	display: block;
+	padding: 5px;
+	margin: 5px;
+}
+.dropitems a:first-child {
+	padding-top: 25px;
+}
+.dropdown:hover .dropitems {
+	display: block;
+}
+.dropitems a:hover {
+	color: #fff;
+}
+.dropdown:hover .dropbutton a {
+	color: #a8aedf;
 }
 
 #clothes {
@@ -88,24 +127,28 @@ nav li a:hover {
 }
 
 #sock1 {
+	width: 150px;
 	position: absolute;
 	right: 950px;
 	bottom: -400px;
 	transform: rotate(-30deg);
 }
 #sock2 {
+	width: 150px;
 	position: absolute;
 	right: -100px;
 	bottom: 250px;
     background-color: lightblue;
 }
 #shirt {
+	width: 150px;
 	position: absolute;
 	right: 1200px;
 	bottom: -50px;
 	transform: rotate(10deg);
 }
 #pants {
+	width: 120px;
 	position: absolute;
 	right: -300px;
 	bottom: -200px;
