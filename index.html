@@ -22,24 +22,33 @@
 		<nav>
 			<ul>
 				<li><a href="contact.html">Contact</a></li>
-				<li><a href="projects.html">Projects</a></li>
+				<div class="dropdown">
+					<li class="dropbutton"><a href="projects.html">Projects</a></li>
+						<div class="dropitems">
+							<a href="#">Videos</a>
+							<a href="#">Drawings</a>
+							<a href="#">Animations</a>
+							<a href="#">The Roll-buster 3000</a>
+							<a href="#">The "-" in A-B</a>
+						</div>
+				</div>
 				<li><a href="clients.html">Clients</a></li>
 				<li><a href="shop.html">Shop</a></li>
 			</ul>
 		</nav>
 		<section id="frog" ondrop="drop(event)" ondragover="allowDrop(event)">
-			<img src="assets/images/nakedfrog.png" width="650px"/>
+			<img src="assets/images/nakedfrog.png" id="nakedfrog">
 		</section>
 		
 		<section id="clothes">
             <!-- CLOTHES LYING AROUND -->
-            <img src="assets/images/sock.png" width="150" id="sock1" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/leftsock.png')">
+            <img src="assets/images/sock.png" id="sock1" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/leftsock.png')">
 
-            <img src="assets/images/sock.png" width="150" id="sock2" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/rightsock.png')">
+            <img src="assets/images/sock.png" id="sock2" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/rightsock.png')">
 
-            <img src="assets/images/pants.png" width="120" id="pants" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/pantson.png')">
+            <img src="assets/images/pants.png" id="pants" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/pantson.png')">
 
-            <img src="assets/images/shirt.png" width="150" id="shirt" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/shirton.png')">
+            <img src="assets/images/shirt.png" id="shirt" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'assets/images/shirton.png')">
         </section>
         
 		<footer>
