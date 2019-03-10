@@ -125,7 +125,7 @@ nav li a:hover {
 #clothes {
     position: relative;
     right: 800px;
-    bottom: 300px;
+    bottom: 1200px;
     
     padding-bottom: 100px;
     height: 500px;
@@ -134,30 +134,31 @@ nav li a:hover {
 #sock1 {
 	width: 150px;
 	position: absolute;
-	right: 950px;
-	bottom: -400px;
+	right: 1150px;
+	bottom: -350px;
 	transform: rotate(-30deg);
 }
-#sock2 {
-	width: 150px;
+#pants {
+	width: 130px;
 	position: absolute;
 	right: -100px;
 	bottom: 250px;
-    background-color: lightblue;
+    transform: rotate(-20deg); 
+    
 }
 #shirt {
 	width: 150px;
 	position: absolute;
-	right: 1200px;
-	bottom: -50px;
+	right: 1000px;
+	bottom: 200px;
 	transform: rotate(10deg);
 }
-#pants {
-	width: 120px;
+#sock2 {
+	width: 150px;
 	position: absolute;
 	right: -300px;
 	bottom: -200px;
-	transform: rotate(-20deg); 
+	transform: rotate(20deg);  
 }
 
 footer {
