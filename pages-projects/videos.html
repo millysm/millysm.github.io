@@ -6,6 +6,7 @@
 		
 		<link rel="stylesheet" href="../stylesheets/main.css">
 		<link rel="stylesheet" href="../stylesheets/pages.css">
+		<link rel="stylesheet" href="../stylesheets/resolutions.css">
 		
 	<style>
 		iframe {
@@ -15,15 +16,24 @@
 	</head>
 	<body>
 		<div id="logo">
-			<a href="../index.html"><img src="../assets/images/logo.png" width="400" /></a>
+			<a href="../index.html"><img src="../assets/images/logo.png" id="logopic"></a>
 		</div>
 		<header>
-			<h1><a href="../index.html">Videos</a></h1>
+			<h1>Videos</h1>
 		</header>
 		<nav>
 			<ul>
 				<li><a href="../contact.html">Contact</a></li>
-				<li><a href="../projects.html">Projects</a></li>
+				<div class="dropdown">
+					<li class="dropbutton"><a href="#">Projects</a></li>
+						<div class="dropitems">
+							<a href="videos.html">Videos</a>
+							<a href="drawings.html">Drawings</a>
+							<a href="animations.html">Animations</a>
+							<a href="rb3k.html">The Roll-buster 3000</a>
+							<a href="a-b.html">The "-" in A-B</a>
+						</div>
+				</div>
 				<li><a href="../clients.html">Clients</a></li>
 				<li><a href="../shop.html">Shop</a></li>
 			</ul>
