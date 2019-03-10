@@ -4,19 +4,33 @@ body {
 	grid-template-columns: 30% auto;
 	grid-template-areas: 
 		"logo		header"
-		"logo		main"
 		"nav		main"
-		".......	main"
-		".......	main"
-		".......	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
+		"stickers	main"
 		"footer		footer";
 }
 #logo {grid-area: logo;}
 header {grid-area: header;}
 nav {grid-area: nav;}
 main {grid-area: main;}
+#stickerside {grid-area: stickers;}
 footer {grid-area: footer;}
 main {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin: 0px 100px 50px 100px;
+}
+
+#stickerside {
+	background-color: pink;
+	margin-bottom: 70px;
+	margin-left: 100px;
 }

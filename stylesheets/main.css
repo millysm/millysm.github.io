@@ -59,8 +59,13 @@ header h1 {
     position: relative;
     bottom: -200px;
 }
-#nakedfrog {
+#nakedfrog, .clothedfrog {
 	width: 650px;
+}
+.clothedfrog {
+	position: absolute;
+	/* i did this on my computer, i have to change what it looks like at borscht */
+	visibility: hidden;
 }
 
 h1 {

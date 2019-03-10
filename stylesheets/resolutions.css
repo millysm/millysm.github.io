@@ -1,13 +1,21 @@
-@media only screen and (max-width: 1920px) {
-    body {
+@media screen and (max-width: 1920px) {
+	body {
         background-color: lightgreen;
+		grid-template-columns: 40% auto;
+		
     }
     #clothes {
         right: 400px;
     }
+	#logopic {
+		width: 80%;
+	}
+	nav ul {
+		font-size: 2em;
+	}
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     body {
         background-color: lightblue;
 		grid-template-columns: 40% auto;
@@ -57,22 +65,48 @@
 	#nakedfrog {
 		width: 60%;
 	}
+	.clothedfrog {
+		/* not sure why its 50 and not 60 */
+		width: 50%;
+		right: 315px;
+		top: 5px;
+		opacity:;
+	}
 	
 	footer {
 		width: 80%;
 	}
 }
 
-@media only screen and (max-width: 1080px) {
-    body {
+@media screen and (max-width: 1080px) {
+	body {
         background-color: lightgoldenrodyellow;
+		grid-template-columns: 40% auto;
+		
     }
     #clothes {
         right: -440px;
     }
+	#logopic {
+		width: 40%;
+	}
+	header {
+		height: 50px;
+		padding: 8px 120px 8px 120px;
+		
+		right: 450px;
+	}
+	
+	nav ul {
+		font-size: 1.5em;
+	}
+	#frog {
+		bottom: -50px;
+	}
 }
 
-@media only screen and (max-width: 720px) {
+/* no changes made to these resolutions quite yet */
+@media screen and (max-width: 720px) {
     body {
         background-color: lightcoral;
     }
@@ -81,7 +115,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     body {
         background-color: lightgray;
     }
@@ -89,7 +123,7 @@
         right: -950px;
     }
 }
-@media only screen and (max-width: 240px) {
+@media screen and (max-width: 240px) {
     body {
         background-color: lightcyan;
     }
