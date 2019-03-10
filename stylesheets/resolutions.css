@@ -9,6 +9,7 @@
     }
     .clothedfrog {
         right: 175px;
+    }
 	#logopic {
 		width: 80%;
 	}
@@ -32,17 +33,23 @@
 	#sock1, #sock2 {
 		width: 100px;
 	}
+    #sock1 {
+        bottom: -510px;
+        right: 1100px;
+    }
 	#sock2 {
 		bottom: -400px;
-		right: 300px;
+		right: 500px;
 	}
 	#shirt {
 		width: 100px;
-		bottom: -250px;
+		bottom: -100px;
+        right: 1050px;
 	}
+	
 	#pants {
 		width: 80px;
-		right: 200px;
+		right: 400px;
 		bottom: -100px;
 	}
 	#logopic {
@@ -62,9 +69,12 @@
 	nav ul {
 		font-size: 1.5em;
         border: solid 3px black;
+        width: 55%;
+        margin-top: 70px;
 	}
 	#frog {
 		bottom: -50px;
+        right: 200px;
 	}
 	#nakedfrog {
 		width: 60%;
@@ -74,7 +84,6 @@
 		width: 50%;
 		right: 310px;
 		top: 5px;
-		opacity:;
 	}
 	
 	footer {
