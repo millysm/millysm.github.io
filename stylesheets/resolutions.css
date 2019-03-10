@@ -49,10 +49,10 @@
 		width: 50%;
 	}
 	header {
-		width: 70%;
+		width: 60%;
 		bottom: -50px;
 		height: 60px;
-		padding: 8px 150px 8px 150px;
+		padding: 8px 120px 8px 120px;
 		
 		right: 350px;
 		bottom: -80px;
@@ -60,7 +60,7 @@
 	}
 	
 	nav ul {
-		font-size: 1.8em;
+		font-size: 1.5em;
         border: solid 3px black;
 	}
 	#frog {
