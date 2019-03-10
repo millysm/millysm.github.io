@@ -1,11 +1,11 @@
 /*
 
-purple		: #a8aedf;
+purple		: #a5b6ed;
 blue		: #38699a;
 dark green	: #7ec769;
 light green	: #d4e6c1
 pink		: #fccec5;
-
+whitesockyness : #f4f0ec;
 */
 
 } 
@@ -15,7 +15,7 @@ pink		: #fccec5;
 } 
 body {
 	font-family: "Times New Milly";
-	background-color: #a8aedf;
+	background-color: #a5b6ed;
 	overflow: auto;
 	height: 500px;
 	overflow-x: hidden;
@@ -26,6 +26,7 @@ header {
 	width: 100%;
     background-color: #d1cbef;
     border-radius: 50px;
+    border: solid 5px black;
     height: 100px;
     padding: 20px 150px 20px 150px;
     
@@ -66,6 +67,8 @@ header h1 {
 	position: absolute;
 	/* i did this on my computer, i have to change what it looks like at borscht */
 	visibility: hidden;
+    right: 363px;
+    bottom: 5px;
 }
 
 h1 {
@@ -77,6 +80,7 @@ h1 a:visited {color: #38699a;}
 nav ul {
     background-color: #d1cbef;
     border-radius: 50px;
+    border: solid 5px black;
     padding: 20px; 
     
     margin-left: 80px;
@@ -92,13 +96,13 @@ nav li a {
 	color: #38699a;
 }
 nav li a:hover {
-	color: #fff;
+	color: black;
 }
 .dropitems {
 	display: none;
 	position: absolute;
 	min-width: 160px;
-	background-color: #d1cbef;
+	background-color: rgba(244,240,236,0.0);
 	z-index: 1;
 	border-radius: 0 0 30px 30px;
 }
@@ -116,10 +120,10 @@ nav li a:hover {
 	display: block;
 }
 .dropitems a:hover {
-	color: #fff;
+	color: black;
 }
 .dropdown:hover .dropbutton a {
-	color: #a8aedf;
+	color: black;
 }
 
 #clothes {
@@ -135,7 +139,7 @@ nav li a:hover {
 	width: 150px;
 	position: absolute;
 	right: 1150px;
-	bottom: -350px;
+	bottom: -340px;
 	transform: rotate(-30deg);
 }
 #pants {
@@ -150,8 +154,9 @@ nav li a:hover {
 	width: 150px;
 	position: absolute;
 	right: 1000px;
-	bottom: 200px;
+	bottom: 250px;
 	transform: rotate(10deg);
+    z-index: 2;
 }
 #sock2 {
 	width: 150px;
@@ -165,6 +170,7 @@ footer {
     color: #38699a;
     background-color: #d1cbef;
     border-radius: 50px;
+    border: solid 5px black;
     padding: 20px;
     
     position: relative;

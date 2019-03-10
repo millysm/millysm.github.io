@@ -11,18 +11,43 @@
 }
 #formtitle {
 	color: #38699a;
+    font-size : 1.5em;
 }
 fieldset {
 	border:none;
 	width: 90%;
 }
-form {
-	display: table;
+.indent {
+    margin-right: 42px;
+}
+form label, form input, form textarea {
+    margin-bottom: 20px;
+    font-size: 1.5em;
 }
 form input, form textarea {
-	display: table-cell;
 	margin-left: auto;
+    border: solid 5px black;
 }
-#plane, #plane2 {
-	width: 100px;
+form input {
+    border-radius: 50px;
 }
+form textarea {
+    border-radius: 15px;
+}
+#plane {
+	width: 800px;
+    position: relative;
+    bottom: -100px;
+    right: -100px;
+}
+button {
+    font-family: "Times New Milly";
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 10px;
+}
+#buttonalign {
+    text-align: right;
+    margin-right: 300px;
+}
+

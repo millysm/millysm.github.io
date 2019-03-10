@@ -7,6 +7,8 @@
     #clothes {
         right: 400px;
     }
+    .clothedfrog {
+        right: 175px;
 	#logopic {
 		width: 80%;
 	}
@@ -54,10 +56,12 @@
 		
 		right: 350px;
 		bottom: -80px;
+        border: solid 3px black;
 	}
 	
 	nav ul {
 		font-size: 1.8em;
+        border: solid 3px black;
 	}
 	#frog {
 		bottom: -50px;
@@ -68,13 +72,14 @@
 	.clothedfrog {
 		/* not sure why its 50 and not 60 */
 		width: 50%;
-		right: 315px;
+		right: 310px;
 		top: 5px;
 		opacity:;
 	}
 	
 	footer {
 		width: 80%;
+        border: solid 3px black;
 	}
 }
 
@@ -100,6 +105,9 @@
 	nav ul {
 		font-size: 1.5em;
 	}
+    .clothedfrog {
+        right: 290px;
+    }
 	#frog {
 		bottom: -50px;
 	}
