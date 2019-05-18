@@ -17,22 +17,24 @@
 		<?php include '../scripts/header.php'; siteheader('../','Videos');?>
 		<main>
 			<?php include '../scripts/nav.php'; nav('../', '');?>
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/mViPAICrhxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/gdtf6xSabws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/I4m4l8SmrL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/cVaAjgkFZHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/nPUWogKsOhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/tEM-_4EgD9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/pg3-6Flkf5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-			
+			<aside id="stickerside">
+				STICKERS
+			</aside>
+			<section id="content">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/mViPAICrhxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/gdtf6xSabws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/I4m4l8SmrL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/cVaAjgkFZHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/nPUWogKsOhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/tEM-_4EgD9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pg3-6Flkf5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
 		</main>
 		<?php include '../scripts/footer.php';?>
 	</body>

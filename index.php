@@ -13,22 +13,22 @@
 		<?php include 'scripts/header.php'; siteheader('', 'Milly Cohen');?>
 		<main>
 			
-			<div id="shirtformat" class="mainbox">
+			<div id="shirtformat">
 				<img src="assets/images/shirt.png" id="shirt" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'shirton')">
 			</div>
-			<div id="pantsformat" class="mainbox">
+			<div id="pantsformat">
 				<img src="assets/images/pants.png" id="pants" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'pantson')">
 			</div>
-			<div id="lsockformat" class="mainbox">
+			<div id="lsockformat">
 				<img src="assets/images/sock.png" id="sock1" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'leftsock')">
 			</div>
-			<div id="rsockformat" class="mainbox">
+			<div id="rsockformat">
 				<img src="assets/images/sock.png" id="sock2" draggable="true" ondragstart="drag(event)" ondragend="changeImage(event, 'rightsock')">
 			</div>
 			
 			<?php include 'scripts/nav.php'; nav('', 'pages-projects/');?>
 
-			<div id="frogarea" class="mainbox">
+			<div id="frogarea">
 				<img src="assets/images/nakedfrog.png" id="nakedfrog" ondrop="drop(event)" ondragover="allowDrop(event)">
 			
 				<img src="assets/images/leftsock.png" class="clothedfrog" id="leftsock">

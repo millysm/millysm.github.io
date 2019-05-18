@@ -1,5 +1,7 @@
 main {
 	display: grid;
+	height: 60vh;
+	margin-bottom: 5em;
 	grid-template-columns: 32% auto 20%;
 	grid-template-areas:
 				"nav	frog	empty"
@@ -28,7 +30,64 @@ main {
 	height: 700px;
 	display: flex;
 	justify-content: flex-end;
+
+	margin: -5em 10em 0em -5em;
 }
 nav {
 	grid-area: nav;
+}
+/* some of this might be unneccessary. check */
+#sock1 {
+	width: 200px;
+}
+#pants {
+	width: 200px;
+	height: 200px;
+}
+#shirt {
+	width: 200px;
+	height: 200px;
+}
+#sock2 {
+	width: 200px;
+}
+#nakedfrog, .clothedfrog {
+	width: 30%;
+}
+.clothedfrog {
+	visibility: hidden;
+	position: absolute;
+}
+#nakedfrog {
+	position: absolute;
+}
+/*	RESOLUTIONS		*/
+/*	RESOLUTIONS		*/
+@media only screen and (max-width: 1920px) {
+	main {
+		margin-bottom: 10em;
+	}
+	#sock1 {
+		width: 150px;
+		margin-bottom: -10em;
+	}
+	#pants {
+		width: 150px;
+		height: 150px;
+		margin-top: -10em;
+	}
+	#shirt {
+		width: 150px;
+		height: 150px;
+	}
+	#sock2 {
+		width: 150px;
+		margin-bottom: 5em;
+	}
+	#nakedfrog, .clothedfrog {
+		width: 35%;
+	}
+	#frogarea {
+		margin: -5em -5em 0em 0em;
+	}
 }

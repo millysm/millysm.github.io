@@ -11,7 +11,12 @@
 		<?php include '../scripts/header.php'; siteheader('../','Drawings');?>
 		<main>
 			<?php include '../scripts/nav.php'; nav('../', '');?>
-			<p>According to all laws of aviation there is no way a bee should be able to fly</p>
+			<aside id="stickerside">
+				STICKERS
+			</aside>
+			<section id="content">
+				content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content 
+			</section>
 		</main>
 		<?php include '../scripts/footer.php';?>
 	</body>
