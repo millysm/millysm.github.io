@@ -1,0 +1,34 @@
+main {
+	display: grid;
+	grid-template-columns: 32% auto 20%;
+	grid-template-areas:
+				"nav	frog	empty"
+				"shirt	frog	pants"
+				"lsock 	frog	rsock";
+}
+#shirtformat {
+	grid-area: shirt;
+	display: flex;
+	justify-content: flex-end;
+}
+#pantsformat {
+	grid-area: pants;
+}
+#lsockformat {
+	grid-area: lsock;
+}
+#rsockformat {
+	grid-area: rsock;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#frogarea {
+	grid-area: frog;
+	height: 700px;
+	display: flex;
+	justify-content: flex-end;
+}
+nav {
+	grid-area: nav;
+}

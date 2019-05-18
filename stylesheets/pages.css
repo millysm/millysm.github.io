@@ -1,36 +1,17 @@
-body {
-	display: grid;
-	grid-gap: 1;
-	grid-template-columns: 30% auto;
-	grid-template-areas: 
-		"logo		header"
-		"nav		main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"stickers	main"
-		"footer		footer";
-}
-#logo {grid-area: logo;}
-header {grid-area: header;}
-nav {grid-area: nav;}
-main {grid-area: main;}
-#stickerside {grid-area: stickers;}
-footer {grid-area: footer;}
 main {
-	margin: 0px 100px 50px 100px;
-	font-size: 1.5em;
+    display: grid;
+	grid-template-columns: 32% auto;
+	grid-template-areas:
+            "nav	    content"
+            "stickers   content";
 }
-
+nav {grid-area: nav;}
 #stickerside {
-	margin-bottom: 70px;
-	margin-left: 100px;
+    grid-area: stickers;
+    margin: 1em;
+}
+#content {
+    grid-area: content;
+    margin: 1em 1em 3em 5em;
+    font-size: 2em;
 }
