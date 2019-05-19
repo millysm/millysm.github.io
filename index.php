@@ -37,6 +37,6 @@
 				<img src="assets/images/shirton.png" class="clothedfrog" id="shirton">
 			</div>
 		</main>
-		<?php include 'scripts/footer.php';?>
+		<?php include 'scripts/footer.php'; footer('');?>
 	</body>
 </html>
