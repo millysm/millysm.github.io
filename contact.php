@@ -60,6 +60,6 @@
 				</form>
 			</section>
 		</main>
-		<?php include 'scripts/footer.php';?>
+		<?php include 'scripts/footer.php'; footer('');?>
 	</body>
 </html>
