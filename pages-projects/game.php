@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang ="en-US">
 	<head>
-		<title>The "-" In A-B | Milly Cohen</title>
+		<title>WIP : Game | Milly Cohen</title>
 		<meta charset="UTF-8">
 		
 		<link rel="stylesheet" href="../stylesheets/main.css">
 		<link rel="stylesheet" href="../stylesheets/pages.css">
 	</head>
 	<body>
-		<?php include '../scripts/header.php'; siteheader('../','The "-" in A-B');?>
+		<?php include '../scripts/header.php'; siteheader('../','WIP : Game');?>
 		<main>
 			<?php include '../scripts/nav.php'; nav('../', '');?>
 			<aside id="stickerside">

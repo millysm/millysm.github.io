@@ -15,3 +15,10 @@ nav {grid-area: nav;}
     margin: 1em 1em 3em 5em;
     font-size: 2em;
 }
+
+/*	RESOLUTIONS		*/
+@media only screen and (max-width: 1920px) {
+	#content {
+        margin: 1em -3em 3em 5em;
+    }
+}

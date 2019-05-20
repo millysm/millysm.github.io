@@ -46,6 +46,6 @@
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/pg3-6Flkf5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section>
 		</main>
-		<?php include 'scripts/footer.php'; footer('../');?>
+		<?php include '../scripts/footer.php'; footer('../');?>
 	</body>
 </html>
