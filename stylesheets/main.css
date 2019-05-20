@@ -86,12 +86,21 @@ nav li a:hover {
 .dropitems {
 	visibility: hidden;
 	position: absolute;
-	min-width: 160px;
+	margin-left: -5.2em;
+
+	width: 400px;
 	background-color: rgba(244,240,236,0.0);
 	z-index: 1;
 	border-radius: 0 0 30px 30px;
 	border: solid 5px black;
+
+	display: grid !important;
+	grid-template-columns: 50% auto;
+	grid-template-areas:
+		"col1 col2";
 }
+.dropcol1 {grid-area: col1;}
+.dropcol2 {grid-area: col2;}
 .dropitems a {
 	text-decoration: none;
 	color: #38699a;
@@ -136,6 +145,9 @@ footer img {
 
 /*	RESOLUTIONS		*/
 @media only screen and (max-width: 1920px) {
+	body {
+		margin: 20px 200px 200px 100px;
+	}
 	header {width: 40%;}
 	header h1 {font-size: 4em;}
 	nav	ul {
@@ -148,5 +160,6 @@ footer img {
 	}
 	footer {
 		font-size: 2em !important;
+		margin-left: 100px;
 	}
 }
