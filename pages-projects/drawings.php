@@ -38,11 +38,24 @@
 					</div>
 
 					<div class="piece">
+					<img width="300" src="../assets/content/animation/angrygum.png">
+					</div>
+
+					<div class="piece">
 					<img width="300" src="../assets/content/animation/stars.png">
 					</div>
 
 					<div class="piece">
+					<img width="600" src="../assets/content/animation/ddp3.png">
+					</div>
+
+					<div class="piece">
+					<img width="600" src="../assets/content/animation/ddp4.png">
+					</div>
+
+					<div class="piece">
 					<img width="400" src="../assets/content/animation/laffaywhale.png" style="border-radius: 20px">
+					<img width="300" src="../assets/content/animation/flygif.gif">
 					</div>
 
 					<div class="piece">
@@ -71,10 +84,6 @@
 
 					<div class="piece">
 					<img width="400" src="../assets/content/animation/uncrustybles.png">
-					</div>
-
-					<div class="piece">
-					<img width="300" src="../assets/content/animation/flygif.gif">
 					</div>
 
 					<div class="piece">
