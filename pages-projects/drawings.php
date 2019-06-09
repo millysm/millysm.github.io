@@ -23,6 +23,54 @@
 
 					<div class="piece">
 					<img width="200" src="../assets/content/animation/aerobicsfishgif.gif">
+					<img width="200" src="../assets/content/animation/steamyguy.gif">
+					</div>
+
+					<div class="piece">
+					<img width="200" src="../assets/content/animation/turwel.png">
+					<img width="300" src="../assets/content/animation/ice.png">
+					<img width="200" src="../assets/content/animation/nakey.png">
+					</div>
+
+					<div class="piece">
+					<img width="300" src="../assets/content/animation/xpara.png">
+					<img width="200" src="../assets/content/animation/nike.png">
+					</div>
+
+					<div class="piece">
+					<img width="300" src="../assets/content/animation/stars.png">
+					</div>
+
+					<div class="piece">
+					<img width="400" src="../assets/content/animation/laffaywhale.png" style="border-radius: 20px">
+					</div>
+
+					<div class="piece">
+					<img width="300" src="../assets/content/animation/zone.png">
+					</div>
+
+					<div class="piece">
+					<img width="400" src="../assets/content/animation/nose.png">
+					</div>
+
+					<div class="piece">
+					<img width="500" src="../assets/content/animation/storyboard1.png">
+					</div>
+
+					<div class="piece">
+					<img width="500" src="../assets/content/animation/storyboard2.png">
+					</div>
+
+					<div class="piece">
+					<img width="500" src="../assets/content/animation/paste.png">
+					</div>
+
+					<div class="piece">
+					<img width="400" src="../assets/content/animation/geico.png">
+					</div>
+
+					<div class="piece">
+					<img width="400" src="../assets/content/animation/uncrustybles.png">
 					</div>
 
 					<div class="piece">
@@ -30,17 +78,11 @@
 					</div>
 
 					<div class="piece">
-					<img width="200" src="../assets/content/animation/steamyguy.gif">
+					<img width="200" src="../assets/content/animation/FIRE.gif">
 					</div>
 
 					<div class="piece">
-					<video controls width="200">
-						<source src="../assets/content/animation/thebest.mp4" type="video/mp4">
-					</video>
-					</div>
-
-					<div class="piece">
-					<img width="200" src="../assets/content/animation/velcrogif.gif">
+					<img width="400" src="../assets/content/animation/godbitch.png">
 					</div>
 
 				</div>
