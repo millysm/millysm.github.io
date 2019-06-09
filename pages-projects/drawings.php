@@ -39,17 +39,15 @@
 
 					<div class="piece">
 					<img width="300" src="../assets/content/animation/angrygum.png">
-					</div>
-
-					<div class="piece">
 					<img width="300" src="../assets/content/animation/stars.png">
 					</div>
 
 					<div class="piece">
-					<img width="600" src="../assets/content/animation/ddp3.png">
+					<img width="300" src="../assets/content/animation/godbitch.png">
 					</div>
 
 					<div class="piece">
+					<img width="600" src="../assets/content/animation/ddp3.png">
 					<img width="600" src="../assets/content/animation/ddp4.png">
 					</div>
 
@@ -68,9 +66,6 @@
 
 					<div class="piece">
 					<img width="500" src="../assets/content/animation/storyboard1.png">
-					</div>
-
-					<div class="piece">
 					<img width="500" src="../assets/content/animation/storyboard2.png">
 					</div>
 
@@ -88,10 +83,6 @@
 
 					<div class="piece">
 					<img width="200" src="../assets/content/animation/FIRE.gif">
-					</div>
-
-					<div class="piece">
-					<img width="400" src="../assets/content/animation/godbitch.png">
 					</div>
 
 				</div>
