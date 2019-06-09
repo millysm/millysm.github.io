@@ -6,6 +6,7 @@
 		
 		<link rel="stylesheet" href="../stylesheets/main.css">
 		<link rel="stylesheet" href="../stylesheets/pages.css">
+		<link rel="stylesheet" href="../stylesheets/content.css">
 	</head>
 	<body>
 		<?php include '../scripts/header.php'; siteheader('../','Client Work');?>
@@ -15,7 +16,14 @@
 				STICKERS
 			</aside>
 			<section id="content">
-				content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content 
+				<div class="piece">
+					<video controls width="400">
+						<source src="../assets/content/clientwork/1080.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="piece"><img width="400" src="../assets/content/clientwork/ghostdrawing.png" /></div>
+				<div class="piece"><img width="400" src="../assets/content/clientwork/ghosthomiegalaxy.png" /></div>
+				<div class="piece"><img width="400" src="../assets/content/clientwork/googleborscht.gif" /></div>
 			</section>
 		</main>
 		<?php include '../scripts/footer.php'; footer('../');?>

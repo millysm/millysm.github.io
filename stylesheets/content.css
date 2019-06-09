@@ -1,0 +1,31 @@
+.themedcontent {
+    background-color: #d1cbef;
+    border-radius: 50px;
+    border: solid 5px black;
+    margin-bottom: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rb3k {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "A B" "C D" "E F";
+    align-items: center;
+
+}
+#rb3k:nth-child(1) {grid-area: A;}
+#rb3k:nth-child(2) {grid-area: B;}
+#rb3k:nth-child(3) {grid-area: C;}
+#rb3k:nth-child(4) {grid-area: D;}
+#rb3k:nth-child(5) {grid-area: E;}
+#rb3k:nth-child(6) {grid-area: F;}
+#rb3k img {
+    margin: 1em;
+    border-radius: 20px;
+}
+#drawings {
+    display: flex;
+    
+}
