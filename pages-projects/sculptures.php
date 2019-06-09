@@ -19,15 +19,16 @@
 				<section class="themedcontent">
 					<img width="500" src="../assets/content/sculpture/beepbeep.gif" />
 					<img width="500" src="../assets/content/sculpture/cars/carspage.png"/>
+					These are cars from the <a href="#">A-B video</a>.
 				</section>
 				<section class="themedcontent">
 					<div id="rb3k">
 						<img width="250" src="../assets/content/sculpture/lbgd.png" />
 						<img width="250" src="../assets/content/sculpture/waterbottle.png" />
 						<img width="250" src="../assets/content/sculpture/rb3i.png" />
+						<img width="250" src="../assets/content/sculpture/rb3pants.png" />
 						<img width="250" src="../assets/content/sculpture/rb30.png" />
 						<img width="250" src="../assets/content/sculpture/rb33.png" />
-						<img width="250" src="../assets/content/sculpture/rb3pants.png" />
 					</div>
 				</section>
 			</section>

@@ -1,4 +1,4 @@
-.themedcontent {
+.themedcontent, .piece {
     background-color: #d1cbef;
     border-radius: 50px;
     border: solid 5px black;
@@ -27,5 +27,6 @@
 }
 #drawings {
     display: flex;
+    flex-direction: column;
     
 }
