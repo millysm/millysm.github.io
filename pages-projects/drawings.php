@@ -70,6 +70,16 @@
 					</div>
 
 					<div class="piece">
+					<img width="500" src="../assets/content/animation/the/SWEATYETCH.gif">
+					<img width="500" src="../assets/content/animation/the/FAMetch.gif">
+					</div>
+
+					<div class="piece">
+					<img width="500" src="../assets/content/animation/the/BLUE.gif">
+					<img width="500" src="../assets/content/animation/the/BLUE.png">
+					</div>
+
+					<div class="piece">
 					<img width="500" src="../assets/content/animation/paste.png">
 					</div>
 
