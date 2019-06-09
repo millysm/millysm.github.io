@@ -6,6 +6,8 @@
 		
 		<link rel="stylesheet" href="stylesheets/main.css">
 		<link rel="stylesheet" href="stylesheets/pages.css">
+
+		<script src="scripts/stickynav.js"></script>
 	</head>
 	<body>
 		<?php include 'scripts/header.php'; siteheader('', 'Shop');?>

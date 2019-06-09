@@ -2,7 +2,7 @@
 
 function nav($back, $back2) {
     echo 
-    '<nav class="mainbox">
+    '<nav id="mainbox">
         <ul>
         <li><a href="', $back,'contact.php">Contact</a></li>
         <div class="dropdown">

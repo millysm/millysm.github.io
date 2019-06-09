@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="stylesheets/main.css">
 		<link rel="stylesheet" href="stylesheets/index.css">
 		<script src="scripts/dressup.js"></script>
+		<script src="scripts/stickynav.js"></script>
 	</head>
 	<body>
 		<?php include 'scripts/header.php'; siteheader('', 'Milly Cohen');?>
